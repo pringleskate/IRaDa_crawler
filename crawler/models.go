@@ -40,7 +40,7 @@ type Item struct {
 	Title string `xml:"title"`
 	Link string `xml:"link"`
 	Description string `xml:"description"`
-	Pubdate string `xml:"pubdate"`
+	Pubdate string `xml:"pubDate"`
 	Enclosure Enclosure `xml:"enclosure"`
 	Category string `xml:"category"`
 }
